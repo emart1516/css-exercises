@@ -20,10 +20,34 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  /* changes */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
   border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
   border-radius: 4px;
+}
+
+/* additions */
+
+.content {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
